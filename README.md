@@ -1,15 +1,34 @@
-# Boilerplate Flutter
+# Teste para empresa Ioasys
 
-Criado para geração de novos projetos.
+## 📱Escopo de projeto
+Deve ser criado um aplicativo em Flutter com as seguintes especificações:
+
+* Login e acesso de Usuário já registrado
+    * Para o login usamos padrões OAuth 2.0. Na resposta de sucesso do login a api retornará 3 custom headers (access-token, client, uid);
+    * Para ter acesso as demais APIS precisamos enviar esses 3 custom headers para a API autorizar a requisição;
+* Busca de Empresas
+* Listagem de Empresas
+* Detalhamento de Empresas
+# Resultado
+#### Apresentação geral:
+<img src="https://github.com/prswins/flutter_empresas/blob/master/empresas_flutter_video.gif?raw=true" width="500"/>
+
+#### Tela de Login:
+<img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_01.png?raw=true" width="500"/>
+
+#### Tela de Listagem:
+<img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_04.png" width="500"/>
+
+#### Tela de Busca:
+<img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_02.png" width="500"/>
+
+#### Tela de Detalhes:
+<img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_03.png" width="500"/>
+
+
+# Sobre o desenvolvimento
+### Instruções
 Utilizado MobX(Gerenciar estados), GetIt(Provedor de código) e FVM para versão do SDK do Flutter.
-
-## Iniciando
-
-O Boilerplate contém o minimo necessário para a criação de um novo projeto. Este repositório é précarregado com alguns componentes básicos para a estrutura do app.
-
-## Como utilizar
-
-
 
 Esse projeto utiliza biblioteca de geração de código para auxiliar no gerenciamento de estados, execute o comando para gerar arquivos:
 
@@ -32,9 +51,7 @@ flutter pub run build_runner build --delete-conflicting-output
 ```
 
 
-
-
-**Gerar icone do aplicativo**
+## Gerar icone do aplicativo
 
 ```
 
@@ -62,7 +79,7 @@ Obs.: Os icones para iOS devem preencher toda a imagem e não conter bordas tran
 Núcleo da estrutura
 
 ```
-flutter_mobile/
+empresas_flutter/
 |- android
 |- build
 |- i18n
@@ -86,43 +103,40 @@ lib/
 ```
 
 
-### Desenvolvimento:
-Para referências, ver o link https://pub.dev/packages/mobx
-
 ```
-Banco de dados
+ Banco de dados
 - Nome, versão, inserção/alteração de tabelas (/data/local/database_helper.dart
 - Tabelas (database.dart)
 ```
 
 ```
-Consumo API
+ Consumo API
 - Configuração de cliente http (/data/network/api_base_helper.dart)
 - Função para recuperação de proxy, criado um bridge com código nativo.
 ```
 
 ```
-Gerenciamento de dados (API, Local DB)
+ Gerenciamento de dados (API, Local DB)
 - (/data/data_manager.dart)
 - Gerar models com https://app.quicktype.io/ a partir de um json (/data/model/)
 - Adaptar seguindo exemplo de Login, caso vá utilizar as funcionalidades do mobx nele.
 ```
 
 ```
-Criar um novo Store/Controller 
+ Criar um novo Store/Controller 
 - Criar dentro do diretório (/controller).
 - Para facilitar a geração do código, utilizar o plugin no Visual Studio Code, flutter_mobx e digitar 'mobx' no arquivo criado.
 - getIt.registerSingleton<Classe>(Classe()); (main.dart)
 ```
 
 ```
-Resgatar um Store/Controller já registrado
+ Resgatar um Store/Controller já registrado
 - final store = GetIt.I.get<Classe>();
 - Utilizar Observer.
 ```
 
 ```
-Novo idioma para o app 
+ Novo idioma para o app 
 - Importar o asset no pubspec.yaml
 - Dentro do método isSupported da classe '_AppLocalizationsDelegate', adicionar os idiomas, seguindo o modelo: 'pt'
 - Dentro do método build, adicionar novo idioma em supportedLocales, seguindo o modelo: Locale('pt', 'BR') (main.dart)
@@ -131,13 +145,13 @@ Novo idioma para o app
 ```
 
 ```
-Gerenciamento de rotas
+ Gerenciamento de rotas
 - Ao criar nova tela, configurá-la no (/services/nav/routes.dart)
 - Para utilizar, recuperar a instancia do GetIt, conforme exemplo: GetIt.I.get<NavigationService>().navigateTo(Routes.nomerota);
 ```
 
 ```
-Firebase
+ Firebase
 - Criar o projeto no Firebase, realizar as configurações conforme exemplo.
 - https://firebase.flutter.dev/
 - https://pub.dev/packages/firebase_messaging
