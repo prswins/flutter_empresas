@@ -13,17 +13,13 @@ Deve ser criado um aplicativo em Flutter com as seguintes especificações:
 #### Apresentação geral:
 <img src="https://github.com/prswins/flutter_empresas/blob/master/empresas_flutter_video.gif?raw=true" width="500"/>
 
-#### Tela de Login:
-<img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_01.png?raw=true" width="500"/>
 
-#### Tela de Listagem:
-<img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_04.png" width="500"/>
+| Telas  |   |   |   |
+| ------------ | ------------ | ------------ | ------------ |
+| Login  | Listagem  | Busca  | Detalhes  |
+|  |  |  |  |
+| <img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_01.png?raw=true" width="250"/>  |  <img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_04.png" width="250"/> | <img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_02.png" width="250"/>  |  <img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_03.png" width="250"/> |
 
-#### Tela de Busca:
-<img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_02.png" width="500"/>
-
-#### Tela de Detalhes:
-<img src="https://github.com/prswins/flutter_empresas/blob/master/flutter_03.png" width="500"/>
 
 
 # Sobre o desenvolvimento
