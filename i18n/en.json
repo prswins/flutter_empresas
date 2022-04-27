@@ -1,0 +1,31 @@
+{
+    "tf_user": "User",
+    "tf_pwd" : "Password",
+    "bt_login" : "Login",
+
+    "error_user_empty" : "Type your username",
+    "error_user_short" : "Your username must have at least 3 characters",
+    "error_user_wrong_email" : "Type a valid e-mail",
+    "error_pwd_empty" : "Type your password",
+    "error_screen" : "Oups! Something went wrong!",
+
+    "tf_search_input_home" : "Type...",
+    "t_title_home": "Search for a company",
+
+    "t_welcome_1_login":"Welcome,",
+    "t_welcome_2_login":"You are on companies",
+
+    "cancel" : "Cancel",
+    "ok" : "OK",
+    "warning" :"Warming",
+    "close": "Close",
+    "error_verify": "Error verify",
+
+    "logout_confirm" : "Confirm",
+    "logout_title" : "Logout",
+    "logout_content" : "Do you want to log out ?",
+
+    "t_msg_logout":"Come back anytime",
+    "t_msg_logout2": "Thanks for using Empresas"
+
+}

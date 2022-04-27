@@ -1,0 +1,30 @@
+{
+    "tf_user": "Usuário",
+    "tf_pwd" : "Senha",
+    "bt_login" : "Entrar",
+
+    "error_user_empty" : "Digite seu usuário",
+    "error_user_short" : "Usuário deve conter ao menos 3 caracteres",
+    "error_user_wrong_email" : "Digite um e-mail válido",
+    "error_pwd_empty" : "Digite sua senha",
+    "error_screen" : "Algo deu errado!",
+
+    "tf_search_input_home" : "Digite...",
+    "t_title_home": "Pesquise por uma empresa",
+
+    "t_welcome_1_login":"Bem vindo,",
+    "t_welcome_2_login":"Você está no empresas",
+
+    "cancel" : "Cancelar",
+    "ok" : "OK",
+    "warning" :"Alerta",
+    "close": "Fechar",
+    "error_verify": "Erro encontrado",
+
+    "logout_confirm" : "Confirmar",
+    "logout_title" : "Logout",
+    "logout_content" : "Deseja sair do empresas ?",
+
+    "t_msg_logout":"Volte sempre",
+    "t_msg_logout2": "Obrigado por utilizar o Empresas"
+}
